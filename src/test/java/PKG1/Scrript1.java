@@ -17,7 +17,7 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 public class Scrript1 {
 
 	// step1
-	static ExtentReports extent = new ExtentReports();
+	static ExtentReports extent = new   ExtentReports();
 	// step2
 	ExtentSparkReporter sparkReporter = new ExtentSparkReporter("report.html");
 
